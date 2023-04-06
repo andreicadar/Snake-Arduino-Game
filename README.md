@@ -1,6 +1,7 @@
 # Snake-Arduino-Game
 
 The famous snake game running on Arduino :snake:
+<br>
 The project was done in less than two days.
 
 ## Components
