@@ -1,15 +1,16 @@
 # Snake-Arduino-Game
 
 The famous snake game running on Arduino :snake:
+The project was done in less than two days.
 
 ## Components
 
 <ul>
     <li>Arduino Nano board</li>
-    <li>RFID-RC522 card reader</li>
-    <li>Waveshare 0.95 inch RGB OLED display</li>
-    <li>Joystick</li>
-    <li>Buzzer</li>
+    <li>RFID-RC522 card reader :credit_card:</li>
+    <li>Waveshare 0.95 inch RGB OLED display :tv:</li>
+    <li>Joystick :joystick:</li>
+    <li>Buzzer :sound:</li>
     <li>Rezistors</li>
     <li>LEDs</li>
     <li>Jumper Wires</li>
@@ -71,6 +72,7 @@ The code below extracts the last used, which is stored on two bytes, increments 
 
 <br>
 EEPROM is also used to retrieve the highscore again stored on two bytes.
+
 ```
 highScore = EEPROM.read(110)*255 + EEPROM.read(111);
 ```
