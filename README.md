@@ -17,9 +17,23 @@ The famous snake game running on Arduino
 
 ## Usage
 
+### Controls :joystick:
+
+<ul>
+    <li>Joystick-right: move the snake right</li>
+    <li>Joystick-left: move the snake left</li>
+    <li>Joystick-up: move the snake up</li>
+    <li>Joystick-down: move the snake down</li>
+    <li>Joystick-enter: enter</li>
+</ul>
+
 After plugging the Arduino Nano to a power suply everything is set.
 <br>
 The player is ask to present his RFID card to the reader.
 <br>
 The game has multiple accounts each one having its username and personal high score.
+<br>
 ![PresentImage](Media/Present.jpg)
+<br>
+After succesfully loging in with his card the user is displayed with its username, highscore and an option to start the game.
+![MenuImage](Media/Menu.jpg)
