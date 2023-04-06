@@ -79,3 +79,7 @@ EEPROM is also used to retrieve the highscore again stored on two bytes.
 ```
 highScore = EEPROM.read(110)*255 + EEPROM.read(111);
 ```
+
+### Losing
+When the game is lost a small menu with Yes/No options is displayed to restart the game or go to the menu.
+![GameImage](Media/Lost.jpg)
