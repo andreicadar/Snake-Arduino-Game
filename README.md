@@ -43,12 +43,14 @@ After plugging the Arduino Nano to a power suply everything is set.
 <br>
 The player is ask to present his RFID card to the reader.
 <br>
-The game has multiple accounts each one having its username and personal high score.
 <br>
+The game has multiple accounts each one having its username and personal high score.
 ![PresentImage](Media/Present.jpg)
+<br>
 <br>
 After succesfully loging in with his card the user is displayed with its username, highscore and an option to start the game.
 ![MenuImage](Media/Menu.jpg)
+<br>
 <br>
 After the enter is pressed on the joystick the game starts
 ![GameImage](Media/Playing.jpg)
